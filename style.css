@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.orange-color {
+    color: orange;
+}
+.half-width h1 {
+    font-size: 55px;
+    color: #575757;
+    margin-top: 20%;
+    margin-bottom: 20px;
+
+}
+p {
+    color: dimgray;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+.flexible-container {
+    display: flex;
+    padding-bottom: 150px;
+}
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+.img {
+    text-align: center;
+    margin-left: -120px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-image: linear-gradient( rgba(251,151,76), rgba(251,75,0,1));
+    padding: 20px 40px ;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px tomato;    
+}
+
+/*======about-us section==========*/
+.about-us {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.about-us {
+    background-image: url(shapes/7.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.person-img img {
+    width: 50%;
+}
+.person-img {
+    text-align: center;
+}
+.text-area {
+    text-align: left;
+}
+.text-area h1 {
+    margin-top: 20px;
+    color: #575757;
+}
+.text-area p {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    line-height: 35px;
+}
+
+/*=========recipe section===========*/
+
+.recipe h1 {
+    color: #575757;
+    text-align: center;
+    font-size: 40px;
+}
+.recipe p {
+    text-align: center;
+    color:black;
+    line-height: 25px;
+}
+.recipe-item {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 2%;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 20px;
+}
+.recipe-item img {
+    width: 512px;
+    height: 290px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.recipe-item  h2 {
+   font-size: 30px;
+}
+.recipe-item p {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/*======content-area=========*/
+
+.content-area {
+    display: flex;
+    margin-bottom: 100px;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 30px;
+}
+.content {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin-left: 5%;
+}
+.content h1 {
+    font-size: 50px;
+}
+
+/*========footer=====*/
+
+.footer {
+    background-color: #0B0D17;
+    padding: 50px;
+}
+.footer h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+.footer p {
+    text-align: center;
+    margin-top: 10px;
+}
