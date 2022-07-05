@@ -62,6 +62,7 @@ p {
 }
 .person-img {
     text-align: center;
+    margin-bottom: -26px;
 }
 .text-area {
     text-align: left;
